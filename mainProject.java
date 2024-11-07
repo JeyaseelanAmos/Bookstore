@@ -22,8 +22,10 @@ static void diplayForSetAndUpdate(int isbn,Store store){
             break;
         }
     }
+}	
+static void sayHi(){
+	System.out.println("HI");
 }
-
  void reStockableBooks() {
     System.out.println("                 Restockable books               ");
     System.out.println("─────────────────────────────────────────────────");
